@@ -1,4 +1,27 @@
 # Bitcoin price display application using Next.js
+Next.js ssr application displays bitcoin price data from CoinDesk api.
+
+## How to run
+Git clone this commit.
+Install required node packages:
+```
+npm install
+```
+
+To start development server:
+```
+npm run dev
+```
+
+To build production version:
+```
+npm run build
+```
+
+To start production version:
+```
+npm run start
+```
 
 ## Licenses
 * [Next.js](https://nextjs.org/)
