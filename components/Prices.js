@@ -17,7 +17,7 @@ class Prices extends React.Component {
             }
 
             return (
-                <option value={item.code}>{item.code}</option>
+                <option key={item.code} value={item.code}>{item.code}</option>
             )
         })
     };
